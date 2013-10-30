@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>TaskTemplates</id>
+        <version>1.1.0</version>
+        <title>Task Templates for ReSharper</title>
+        <authors>Øystein Krog</authors>
+        <licenseUrl>https://raw.github.com/oysteinkrog/resharper-tasktemplates/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/oysteinkrog/resharper-tasktemplates</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Templates for using Tasks.</description>
+        <summary />
+        <releaseNotes />
+        <copyright>Copyright © 2013 Øystein Krog</copyright>
+        <language>en-US</language>
+        <tags>Template</tags>
+        <dependencies>
+            <dependency id="ReSharper" version="8.0" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="..\src\TaskTemplates.DotSettings" target="ReSharper\v8.0\settings\TaskTemplates.DotSettings" />
+    </files>
+</package>
