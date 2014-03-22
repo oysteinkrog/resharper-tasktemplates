@@ -2,20 +2,21 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>TaskTemplates</id>
-        <version>1.2.0</version>
+        <version>1.2.1</version>
         <title>Task Templates for ReSharper</title>
         <authors>Øystein Krog</authors>
         <licenseUrl>https://raw.github.com/oysteinkrog/resharper-tasktemplates/master/LICENSE</licenseUrl>
         <projectUrl>https://github.com/oysteinkrog/resharper-tasktemplates</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Templates for using Tasks.</description>
-        <releaseNotes>Support for ReSharper 8.1 (thank you @citizenmatt)</releaseNotes>
+        <releaseNotes>1.2.1 Support for ReSharper 8.2.
+1.2.0 Support for ReSharper 8.1 (thanks CitizenMatt).</releaseNotes>
         <summary />
         <copyright>Copyright © 2013 Øystein Krog</copyright>
         <language>en-US</language>
         <tags>Template</tags>
         <dependencies>
-            <dependency id="ReSharper" version="8.0" />
+            <dependency id="ReSharper" version="[8.1,8.3)"/>
         </dependencies>
     </metadata>
     <files>
